@@ -6,7 +6,7 @@ Questions 1–40
 ### Q1
 Which of the following BEST describes the purpose of testing?  
 A. To prove the software is correct  
-$${\color{green}B. To find defects and reduce risk}$$  
+$${\color{green}B. To  find  defects  and  reduce  risk }$$  
 C. To ensure all requirements are implemented  
 D. To eliminate the need for debugging
 
