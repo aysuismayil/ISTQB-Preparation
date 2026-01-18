@@ -238,5 +238,5 @@ Q39. Which statement about tools is TRUE?
 Q40. Which statement BEST describes the absence-of-errors fallacy?
 - A. No defects means high quality
 - B. Few defects means no risk
-- C. $${\color{green}A.\ A\ defect-free\ system\ may\ still\ fail\ user\ needs}$$
+- $${\color{green}C.\ A\ defect-free\ system\ may\ still\ fail\ user\ needs}$$
 - D. Testing is unnecessary if code is clean
