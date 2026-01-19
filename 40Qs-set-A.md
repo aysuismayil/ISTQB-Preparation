@@ -223,7 +223,7 @@ What is the 2-value boundary value analysis (BVA) coverage for the final result 
 * a) 50%  
 * b) 60%  
 * c) 33.3%  
-* $${\color{green}d.\ 100\%\}$$
+* $${\color{green}d.\ 100%}$$  
 
 **Question #22**  
 Your favorite bicycle daily rental store has just introduced a new Customer Relationship Management system and asked you, one of their most loyal members, to test it.
