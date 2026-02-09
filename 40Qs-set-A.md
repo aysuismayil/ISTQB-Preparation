@@ -68,10 +68,12 @@ Select ONE option.
 ## Question 6 (1 Point)
 Which TWO of the following tasks belong MAINLY to a testing role?
 
-$${\color{green}a.\  Configure\ test\ environments}$$                                                                                             
+$${\color{green}a.\  Configure\ test\ environments}$$  
+
 b)  Maintain the product backlog                                                                                 
 c)  Design solutions to new requirements                                                                             
-d)  Create the test plan                                                                                  
+d)  Create the test plan
+
 $${\color{green}e.\  Analyze\ the\ test\ basis}$$                                                                                              
 
 ---
@@ -259,7 +261,7 @@ d) 6
 ## Question 21 (1 Point)
 What is the 2-value boundary value analysis (BVA) coverage for the final result that is achieved with the existing test cases?
 
-$${\color{green}a.\ 50\%}$$  
+$${\color{green}a.\ 50\}$$  
 b) 60%  
 c) 33.3%  
 d) 100%  
