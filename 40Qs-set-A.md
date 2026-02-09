@@ -40,10 +40,10 @@ d) Exhaustive testing is impossible
 You work in a team that develops a mobile application for food ordering. In the current iteration the team decided to implement the payment functionality.  
 Which of the following activities is a part of test analysis?
 
-- Estimating that testing the integration with the payment service will take 8 person-days  
-$${\color{green}-\ Deciding\ that\ the\ team\ should\ test\ if\ it\ is\ possible\ to\ properly\ share\ payment\ between\ many\ users}$$  
-- Using boundary value analysis (BVA) to derive the test data for the test cases that check the correct payment processing for the minimum allowed amount to be paid  
-- Analyzing the discrepancy between the actual result and expected result after executing a test case that checks the process of payment with a credit card, and reporting a defect  
+a) Estimating that testing the integration with the payment service will take 8 person-days  
+$${\color{green}b.\ Deciding\ that\ the\ team\ should\ test\ if\ it\ is\ possible\ to\ properly\ share\ payment\ between\ many\ users}$$  
+c) Using boundary value analysis (BVA) to derive the test data for the test cases that check the correct payment processing for the minimum allowed amount to be paid  
+d) Analyzing the discrepancy between the actual result and expected result after executing a test case that checks the process of payment with a credit card, and reporting a defect  
 
 ---
 
@@ -71,7 +71,7 @@ Which TWO of the following tasks belong MAINLY to a testing role?
 $${\color{green}a.\ Configure\ test\ environments}$$  
 b) Maintain the product backlog  
 c) Design solutions to new requirements  
-d.) Create the test plan
+d) Create the test plan
 $${\color{green}e.\ Analyze\ the\ test\ basis}$$
 
 ---
