@@ -177,6 +177,16 @@ d) 1C, 2B, 3A, 4D
 ---
 
 ## Question 14 (1 Point)
+You are testing a user story with three acceptance criteria: AC1, AC2, and AC3. AC1 is covered by test case TC1, AC2 by TC2, and AC3 by TC3. The test execution history had three test runs on three consecutive versions of the software as follows:
+
+| Test Case | Execution 1 | Execution 2 | Execution 3 |
+|-----------|-------------|-------------|-------------|
+| TC1       | (1) Failed  | (4) Passed  | (7) Passed  |
+| TC2       | (2) Passed  | (5) Failed  | (8) Passed  |
+| TC3       | (3) Failed  | (6) Failed  | (9) Passed  |
+
+Tests are repeated once you are informed that all defects found in the test run are corrected and a new version of the software is available.
+
 Which of the above tests are executed as regression tests?
 
 a) Only 4, 7, 8, 9  
@@ -213,6 +223,13 @@ Select ONE option.
 ---
 
 ## Question 17 (1 Point)
+The reviews being used in your organization have the following attributes:
+There is the role of a scribe
+The main purpose is to evaluate quality
+The meeting is led by the author of the work product
+There is individual preparation
+A review report is produced
+
 Which of the following review types is MOST likely being used?
 
 $${\color{green}a.\ Informal\ review}$$  
@@ -249,6 +266,12 @@ Select ONE option.
 ---
 
 ## Question 20 (1 Point)
+You are testing a simplified apartment search form which has only two search criteria:
+floor (with three possible options: ground floor; first floor; second or higher floor)
+garden type (with three possible options: no garden; small garden; large garden)
+Each of the apartment on the ground floor has a garden, apartments on higher floors don’t. The form has a built-in validation mechanism that will not allow you to use the search criteria which violate this rule.
+Each test has two input values: floor and garden type. You want to apply equivalence partitioning (EP) to cover each floor and each garden type in your tests.
+
 What is the minimal number of test cases to achieve 100% EP coverage for valid partitions?
 
 a) 3  
@@ -259,6 +282,26 @@ d) 6
 ---
 
 ## Question 21 (1 Point)
+You are testing a system that calculates the final course grade for a given student. The final grade is assigned based on the final result, according to the following rules:
+
+- 0 – 50 points: failed  
+- 51 – 60 points: fair  
+- 61 – 70 points: satisfactory  
+- 71 – 80 points: good  
+- 81 – 90 points: very good  
+- 91 – 100 points: excellent  
+
+You have prepared the following set of test cases:
+
+| Test Case | Final Result | Final Grade    |
+|-----------|--------------|---------------|
+| TC1       | 91           | excellent     |
+| TC2       | 50           | failed        |
+| TC3       | 81           | very good     |
+| TC4       | 60           | fair          |
+| TC5       | 70           | satisfactory  |
+| TC6       | 80           | good          |
+
 What is the 2-value boundary value analysis (BVA) coverage for the final result that is achieved with the existing test cases?
 
 $${\color{green}a.\ 50\}$$  
@@ -271,7 +314,36 @@ Select ONE option.
 ---
 
 ## Question 22 (1 Point)
-Which of the above rules describes an impossible situation?
+Your favorite bicycle daily rental store has just introduced a new Customer Relationship Management system and asked you, one of their most loyal members, to test it.  
+
+The implemented features are as follows:  
+- Anyone can rent a bicycle, but members receive a 20% discount  
+- However, if the return deadline is missed, the discount is no longer available  
+- After 15 rentals, members get a gift: a T-Shirt  
+
+Decision table describing the implemented features:
+
+| Conditions       | R1 | R2 | R3 | R4 | R5 | R6 | R7 | R8 |
+|-----------------|----|----|----|----|----|----|----|----|
+| Being a member   | T  | T  | T  | T  | F  | F  | F  | F  |
+| Missed deadline  | T  | F  | T  | F  | T  | F  | F  | T  |
+| 15th rental      | F  | F  | T  | T  | F  | F  | T  | T  |
+
+| Actions          | R1 | R2 | R3 | R4 | R5 | R6 | R7 | R8 |
+|-----------------|----|----|----|----|----|----|----|----|
+| 20% discount     | X  |    |    | X  |    |    |    |    |
+| Gift T-shirt     |    | X  | X  |    |    |    |    | X  |
+
+Based ONLY on the feature description of the Customer Relationship Management system, which of the above rules describes an impossible situation?
+
+$${\color{green}R4}$$  
+a) R1  
+b) R2  
+c) R3  
+d) R4  
+
+Select ONE option.
+
 
 a) R4  
 b) R2  
@@ -283,6 +355,8 @@ Select ONE option.
 ---
 
 ## Question 23 (1 Point)
+You test a system whose lifecycle is modeled by the state transition diagram shown below. The system starts in the INIT state and ends its operation in the OFF state.
+
 What is the MINIMAL number of test cases to achieve valid transitions coverage?
 
 $${\color{green}a.\ 4}$$  
@@ -295,7 +369,7 @@ Select ONE option.
 ---
 
 ## Question 24 (1 Point)
-What is the consequence of this fact?
+Your test suite achieved 100% statement coverage. What is the consequence of this fact?
 
 $${\color{green}a.\ Each\ instruction\ in\ the\ code\ that\ contains\ a\ defect\ has\ been\ executed\ at\ least\ once}$$  
 b) Any test suite containing more test cases than your test suite will also achieve 100% statement coverage  
@@ -329,6 +403,8 @@ Select ONE option.
 ---
 
 ## Question 27 (1 Point)
+In your project there has been a delay in the release of a brand-new application and test execution started late, but you have very detailed domain knowledge and good analytical skills. The full list of requirements has not yet been shared with the team, but management is asking for some test results to be presented.
+
 Which test technique fits BEST in this situation?
 
 a) Checklist-based testing  
@@ -353,6 +429,16 @@ Select ONE option.
 ---
 
 ## Question 29 (1 Point)
+Consider the following user story:
+As an Editor
+I want to review content before it is published so that I can ensure the grammar is correct and its acceptance criteria:
+The user can log in to the content management system with "Editor" role
+The editor can view existing content pages
+The editor can edit the page content
+The editor can add markup comments
+The editor can save changes
+The editor can reassign to the "content owner" role to make updates
+
 Which of the following is the BEST example of an ATDD test for this user story?
 
 $${\color{green}a.\ Test\ if\ the\ editor\ can\ save\ the\ document\ after\ editing\ the\ page\ content}$$  
@@ -390,6 +476,11 @@ Select TWO options.
 ---
 
 ## Question 32 (1 Point)
+Your team uses the three-point estimation technique to estimate the test effort for a new high-risk  feature. The following estimates were made:  
+• Most optimistic estimation: 2 person-hours  
+• Most likely estimation: 11 person-hours  
+• Most pessimistic estimation: 14 person-hours  
+
 What is the final estimate?
 
 a) 9 person-hours  
@@ -402,6 +493,16 @@ Select ONE option.
 ---
 
 ## Question 33 (1 Point)
+You are testing a mobile application that allows users to find a nearby restaurant based on the type of food they want to eat. Consider the following list of test cases, priorities (i.e., a smaller number means a higher priority), and dependencies:
+
+| Test Case Number | Test Condition Covered | Priority | Logical Dependency |
+|-----------------|----------------------|---------|------------------|
+| TC 001          | Select type of food  | 3       | none             |
+| TC 002          | Select restaurant    | 2       | TC 001           |
+| TC 003          | Get direction        | 1       | TC 002           |
+| TC 004          | Call restaurant      | 2       | TC 002           |
+| TC 005          | Make reservation     | 3       | TC 002           |
+
 Which test cases should be executed as the third one?
 
 $${\color{green}a.\ TC\ 003}$$  
@@ -414,6 +515,16 @@ Select ONE option.
 ---
 
 ## Question 34 (1 Point)
+Consider the following test categories (1-4) and agile testing quadrants (A-D):  
+1. Usability testing  
+2. Component testing  
+3. Functional testing  
+4. Reliability testing  
+A. Agile testing quadrant Q1: technology facing, supporting the development team  
+B. Agile testing quadrant Q2: business facing, supporting the development team 
+C. Agile testing quadrant Q3: business facing, critique the product  
+D. Agile testing quadrant Q4: technology facing, critique the product  
+
 How do the following test categories map onto the agile testing quadrants?
 
 $${\color{green}a.\ 1C,\ 2A,\ 3B,\ 4D}$$  
@@ -426,14 +537,28 @@ Select ONE option.
 ---
 
 ## Question 35 (1 Point)
+During a risk analysis the following risk was identified and assessed:
+
+- **Risk:** Response time is too long to generate a report  
+- **Risk likelihood:** medium  
+- **Risk impact:** high  
+- **Response to risk:**  
+  - An independent test team performs performance efficiency testing during system testing  
+  - A selected sample of end users performs alpha testing and beta testing before the release  
+
 What measure is proposed to be taken in response to this analyzed risk?
 
-$${\color{green}c.\ Risk\ mitigation}$$  
+a) Risk acceptance  
+b) Contingency plan  
+$${\color{green}c.\ Risk\ mitigation}$$
+d) Risk transfer  
+
+Select ONE option.
 
 ---
 
 ## Question 36 (1 Point)
-Which work product can be used to show completed vs remaining work?
+Which work product can be used by an agile team to show the amount of work that has been completed and the amount of total work remaining for a given iteration?  
 
 a) Acceptance criteria  
 b) Defect report  
@@ -445,7 +570,7 @@ Select ONE option.
 ---
 
 ## Question 37 (1 Point)
-Which process indicates that you create a new version of the test script?
+You need to update one of the automated test scripts to be in line with a new requirement. Which  process indicates that you create a new version of the test script in the test repository?  
 
 a) Traceability management  
 b) Maintenance testing  
@@ -457,11 +582,18 @@ Select ONE option.
 ---
 
 ## Question 38 (1 Point)
-What critical information is missing from this test report?
+You received the following defect report from the developers stating that the anomaly described in this test report is not reproducible:
 
-a) Expected result and actual result  
+**Application hangs up**  
+2022-May-03 – John Doe – Rejected  
+
+The application hangs up after entering “Test input: $ä” in the Name field on the new user creation screen. Tried to log off, log in with test_admin01 account, same issue. Tried with other test admin accounts, same issue. No error message received; log (see attached) contains fatal error notification. Based on the test case TC-1305, the application should accept the provided input and create the user. Please fix with high priority, this feature is related to REQ-0012, which is a critical new business requirement.  
+
+What critical information is MISSING from this test report that would have been useful for the developers?
+
+a) Expected result and actual result 
 b) References and defect status  
-$${\color{green}c.\ Test\ environment\ and\ test\ item}$$  
+$${\color{green}c.\ Test\ environment\ and\ test\ item }$$ 
 d) Priority and severity  
 
 Select ONE option.
