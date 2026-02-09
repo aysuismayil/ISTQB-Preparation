@@ -67,12 +67,13 @@ Select ONE option.
 
 ## Question 6 (1 Point)
 Which TWO of the following tasks belong MAINLY to a testing role?
-
-$${\color{green}c.\ Estimated\ defect\ density\ is\ reached}$$   
-b) The ability to log in to the test object by the tester  
-$${\color{green}c.\ Estimated\ defect\ density\ is\ reached}$$   
-d) Requirements are translated into given/when/then format  
-$${\color{green}e.\ Regression\ tests\ are\ automated}$$  
+  
+a)  Maintain the product backlog
+$${\color{green}b.\  Configure\ test\ environments\}$$
+c)  Design solutions to new requirements
+d)  Create the test plan
+$${\color{green}e.\  Analyze\ the\ test\ basis}$$
+ 
 
 Select TWO options.
 
