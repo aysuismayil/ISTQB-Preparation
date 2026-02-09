@@ -68,13 +68,12 @@ Select ONE option.
 ## Question 6 (1 Point)
 Which TWO of the following tasks belong MAINLY to a testing role?
   
-a)  Maintain the product backlog
-$${\color{green}b.\  Configure\ test\ environments\}$$
-c)  Design solutions to new requirements
-d)  Create the test plan
-$${\color{green}e.\  Analyze\ the\ test\ basis}$$
+a)  Maintain the product backlog                                                                  
+$${\color{green}b.\  Configure\ test\ environments\}$$                                               
+c)  Design solutions to new requirements                                            
+d)  Create the test plan                                                       
+$${\color{green}e.\  Analyze\ the\ test\ basis}$$                                        
  
-
 Select TWO options.
 
 ---
